@@ -7,9 +7,11 @@
   
      $ sudo nmcli device wifi connect <ssid_name> password <password>
   
-     $ ifconfig
+     $ ifconfig![Uploading Screenshot from 2023-08-15 02-44-43.png…]()
+
       
-   # ![Screenshot from 2023-08-15 02-15-51](https://github.com/jetsonmom/monicar2/assets/92077615/4bc0e901-ba66-4f0d-997f-11cd364a5d19)
+#  ![Uploading Screenshot from 2023-08-15 02-44-43.png…]()
+
 # ![Screenshot from 2023-08-15 02-17-35](https://github.com/jetsonmom/monicar2/assets/92077615/a17e7c40-b7e1-4431-80ac-01dbb1986fbc)
 
 # 연결을 해제할 때

@@ -42,3 +42,16 @@
      i2cdetect -y -r 1
   
 #  ![Screenshot from 2023-08-15 04-02-59](https://github.com/jetsonmom/monicar2/assets/92077615/33d4a7f4-0217-42b6-b02d-5b6d38002882)
+
+
+
+# 2. ROS Foxy 설치
+
+#  2.1 ROS Foxy 설치
+cd ~/Downloads
+
+git clone https://github.com/zeta0707/installROS2.git
+
+cd installROS2
+
+./install-ros2.sh

@@ -18,3 +18,13 @@
 
 # 연결을 해제할 때
      $ sudo nmcli device disconnect wlan0
+
+  #   1.2 Cooling Fan
+
+  # 4선 PWM 쿨링팬은 아래 작업을 해야 동작합니다. 즉 PWM 신호에 출력을 주어야 동작하는 것입니다. CPU 사용에 따라 쿨링팬 속도를 자동으로 조정하는 utility를 설치하는게 좋습니다.
+
+    cd Downloads
+    git clone https://github.com/jetsonworld/jetson-fan-ctl.git
+    cd jetson-fan-ctl
+
+    sudo sh install.sh

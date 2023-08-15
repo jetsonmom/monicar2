@@ -97,5 +97,50 @@
      jetson@nano:~/ros2_ws$ ros2 run demo_nodes_py listener
 # ![Screenshot from 2023-08-15 06-47-12](https://github.com/jetsonmom/monicar2/assets/92077615/c66b7f7c-748e-4dcc-881b-f8c7985f4be6)
 
+#     3장, udev rule, monicar2 install
 
+#  1. ROS navitation package install on Jetson
+#  아래 과정이 Jetson에 navigation2, slam등을 설치하는 과정입니다. 
+
+   sudo apt update
+   sudo apt install -y ros-foxy-cartographer-ros ros-foxy-nav2-map-server
+
+#   topic을 확인하기 위해서는 USB2Serial을 사용할 권한을 추가해주어야합니다. dialout에 본인을 추가하여 dialout을 사용하도록 허가합니다. 아래 명령에서 jetson은 user id 입니다.
+    
+     sudo usermod -aG dialout jetson
+
+#   monicar2 install
+#   jessicar2 code를 다운로드하고 빌드해주십시오.    
+
+     cd ros2_ws/
+     cd src
+     jetson@nano:~/ros2_ws/src$ git clone https://github.com/orocapangyo/monicar2.git
+     cd ..
+     jetson@nano:~/ros2_ws$ cba
      
+#   2. ROS navitation package install on PC
+
+#   아래 과정이 Jetson에 navigation2, amcl등을 설치하는 과정입니다.
+
+     $ cd ~/Downloads
+     $ git clone https://github.com/zeta0707/installROS2.git
+     $ cd installROS2
+     $ ./install-ros2.sh
+     $ sudo apt install -y ros-foxy-cartographer-ros ros-foxy-nav2-map-server
+
+#   topic을 확인하기 위해서는 USB2Serial을 사용할 권한을 추가해주어야합니다. dialout에 본인을 추가하여 dialout을 사용하도록 허가합니다. 아래 명령에서 jetson은 user id 입니다.
+
+     sudo usermod -aG dialout jetson
+
+#     **monicar2 install**
+
+# 아래 명령을 따라 jessicar2 code를 다운로드하고 빌드해주십시오.
+     $ sudo apt update
+
+     zeta@changwhan-ASUS:~$ cd ros2_ws/
+     zeta@changwhan-ASUS:~/ros2_ws$ cd src
+     zeta@changwhan-ASUS:~/ros2_ws/src$ git clone https://github.com/orocapangyo/monicar2.git
+     zeta@changwhan-ASUS:~/ros2_ws/src$ cd ..
+
+#전체 빌드
+     zeta@changwhan-ASUS:~/ros2_ws$ cba

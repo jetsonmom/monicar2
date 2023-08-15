@@ -39,6 +39,6 @@
  
 # 1.4   I2 C 장치 연결 확인   
 
-  i2cdetect -y -r 1
+     i2cdetect -y -r 1
   
 #  ![Screenshot from 2023-08-15 04-02-59](https://github.com/jetsonmom/monicar2/assets/92077615/33d4a7f4-0217-42b6-b02d-5b6d38002882)

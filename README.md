@@ -65,3 +65,16 @@
 
 
 #   2.2 .bashrc 수정
+
+gedit ~/.bashrc 
+# 또는 편리한 에디터로 .bashrc 열기 
+# 파일 제일 아래에 다음과 같은 내용 입력 
+     export ROS_DOMAIN_ID=105 
+     alias cba="colcon build --symlink-install" 
+     alias cbp="colcon build --packages-select" 
+     alias cca="rm -rf ~/ros2_ws/install ~/ros2_ws/build" 
+     source /opt/ros/foxy/setup.bash source ~/ros2_ws/install/setup.bash 
+     
+# 에디터 종료 후 터미널 업데이트 
+
+     $ source ~/.bashrc

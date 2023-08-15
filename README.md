@@ -3,8 +3,8 @@
 # 1-1. SSH에서 Wifi 연결하기
 # 실행해야할 명령
 
-  $ sudo nmcli device wifi list
+     $ sudo nmcli device wifi list
   
-  $ sudo nmcli device wifi connect <ssid_name> password <password>
+     $ sudo nmcli device wifi connect <ssid_name> password <password>
   
-  $ ifconfig
+     $ ifconfig

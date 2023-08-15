@@ -48,10 +48,10 @@
 # 2. ROS Foxy 설치
 
 #  2.1 ROS Foxy 설치
-   cd ~/Downloads
+      cd ~/Downloads
 
-   git clone https://github.com/zeta0707/installROS2.git
+      git clone https://github.com/zeta0707/installROS2.git
 
-   cd installROS2
+      cd installROS2
 
-   ./install-ros2.sh
+      ./install-ros2.sh

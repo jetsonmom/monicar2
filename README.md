@@ -30,7 +30,7 @@
     sudo sh install.sh
 
 
-    # 1.3 jtop 
+# 1.3 jtop 
    # ![Screenshot from 2023-08-15 08-59-14](https://github.com/jetsonmom/monicar2/assets/92077615/03c0d151-ac7c-4663-81cc-b9af53ba8abb)
  
     

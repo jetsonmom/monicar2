@@ -79,3 +79,23 @@
 # 에디터 종료 후 터미널 업데이트 
 
      $ source ~/.bashrc
+     
+#   2.3 ros2 workspace 설치
+
+# 아래 명령어를 사용하여 clean을 한 번 하면 cba가 문제없이 실행됩니다.
+
+     jetson@nano:~/ros2_ws$ cca
+     jetson@nano:~/ros2_ws$ cba
+
+#   2.4 ROS 동작 확인(Option)   
+
+# 터미널 #1
+     jetson@nano:~/ros2_ws$ ros2 run demo_nodes_cpp talker
+# ![Screenshot from 2023-08-15 06-46-54](https://github.com/jetsonmom/monicar2/assets/92077615/6cdc27be-0e9b-42a2-b453-eed5411d9265) 
+
+# 터미널 #2
+     jetson@nano:~/ros2_ws$ ros2 run demo_nodes_py listener
+# ![Screenshot from 2023-08-15 06-47-12](https://github.com/jetsonmom/monicar2/assets/92077615/c66b7f7c-748e-4dcc-881b-f8c7985f4be6)
+
+
+     

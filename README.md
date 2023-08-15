@@ -29,7 +29,7 @@
 
     sudo sh install.sh
 
-
+#  
 # 1.3    jtop 
    # ![Screenshot from 2023-08-15 08-59-14](https://github.com/jetsonmom/monicar2/assets/92077615/03c0d151-ac7c-4663-81cc-b9af53ba8abb)
 
@@ -53,5 +53,11 @@
       git clone https://github.com/zeta0707/installROS2.git
 
       cd installROS2
+      
+      ./install-ros2.sh   #ROS를 install하기 위해서는 internet access가 필요합니다.
 
-      ./install-ros2.sh
+# jetson@nano:~/Downloads/installROS2$ ls
+# install-ros2.sh  README.md  ros2_turtlesim.png
+# jetson@nano:~/Downloads$ ls
+# installROS2
+# jetson@nano:~/Downloads$ 

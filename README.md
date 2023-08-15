@@ -10,7 +10,6 @@
      $ ifconfig![Uploading Screenshot from 2023-08-15 02-44-43.png…]()
 
       
-#  ![Uploading Screenshot from 2023-08-15 02-44-43.png…]()
 
 # ![Screenshot from 2023-08-15 02-17-35](https://github.com/jetsonmom/monicar2/assets/92077615/a17e7c40-b7e1-4431-80ac-01dbb1986fbc)
 

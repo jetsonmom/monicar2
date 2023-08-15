@@ -7,7 +7,10 @@
   
      $ sudo nmcli device wifi connect <ssid_name> password <password>
   
-     $ ifconfig![Uploading Screenshot from 2023-08-15 02-44-43.png…]()
+     $ ifconfig
+
+     
+# ![Screenshot from 2023-08-15 02-44-43](https://github.com/jetsonmom/monicar2/assets/92077615/f6f05745-972c-4d5d-a091-34e1b623bcce)
 
       
 

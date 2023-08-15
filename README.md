@@ -64,8 +64,4 @@
 #   ![Screenshot from 2023-08-15 04-45-58](https://github.com/jetsonmom/monicar2/assets/92077615/215c2cc6-c3a1-4644-b9ec-b151fca1aa01)
 
 
-
-
-
-
 #   2.2 .bashrc 수정

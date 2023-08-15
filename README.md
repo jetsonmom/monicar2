@@ -66,7 +66,8 @@
 
 #   2.2 .bashrc 수정
 
-gedit ~/.bashrc 
+     gedit ~/.bashrc 
+     
 # 또는 편리한 에디터로 .bashrc 열기 
 # 파일 제일 아래에 다음과 같은 내용 입력 
      export ROS_DOMAIN_ID=105 
